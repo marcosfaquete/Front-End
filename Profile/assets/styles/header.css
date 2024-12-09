@@ -5,6 +5,10 @@
     justify-items: center;  
     font-family: "Original Surfer", sans-serif;
     font-style: normal;
+
+    max-width: 2600px;
+    
+    
     
 }
 
@@ -12,17 +16,15 @@ body {
     background-color: #313031;
 }
 .header {
+    width: 1500px;
+    height: 70px;
     align-items: center;
     display: flex;
     justify-content: space-around;
-    width: 1500px;
-    height: 70px;
     
     background-color: #1B1B1B;
-    
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
     color: aqua;
       
 }
@@ -46,13 +48,60 @@ body {
     padding-left: 100px;
 }
 
-.div2 {
-    border-style: groove;
-    margin-top: 30%;
+.mainProfile {
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: 5%;
     
-    text-align: center;
-    width: 50%;
 
- 
+
+    border-style: groove;
+
 }
+.imgProfile {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    
+
+    
+    
+
+   
+    border-style: groove;
+    
+
+}
+.mainProfile h1 {
+    font-size: 50px;
+    margin-right: 8%;
+
+}
+
+.mainProfile span {
+   max-width: 964px;
+   font-size: 25px;
+
+    
+    color: blue;
+    
+
+    margin-right: 15%;
+
+    border-style: groove;
+    
+
+    
+    
+    
+    
+    
+   
+}
+
 
