@@ -1,32 +1,35 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     justify-items: center;  
     font-family: "Original Surfer", sans-serif;
     font-style: normal;
-
+    
     max-width: 2600px;
+
+    justify-content: flex-start;
+    background-color: #5e5d5e;
     
     
     
 }
 
-body {
-    background-color: #313031;
-}
 .header {
-    width: 1500px;
-    height: 70px;
-    align-items: center;
     display: flex;
     justify-content: space-around;
-    
-    background-color: #1B1B1B;
+    background-color: #313030;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: aqua;
-      
+}
+
+.header nav {
+    background-color: #313030;
+}
+.header a {
+    background-color: #313030;
+    font-size: 40px;
 }
 
 .Menu {
@@ -68,6 +71,7 @@ body {
     margin: 0;
     padding: 0;
     
+    
 
     
     
@@ -83,25 +87,6 @@ body {
 
 }
 
-.mainProfile span {
-   max-width: 964px;
-   font-size: 25px;
 
-    
-    color: blue;
-    
-
-    margin-right: 15%;
-
-    border-style: groove;
-    
-
-    
-    
-    
-    
-    
-   
-}
 
 
