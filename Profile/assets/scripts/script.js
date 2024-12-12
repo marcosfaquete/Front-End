@@ -8,3 +8,5 @@ sr.reveal('.header', {
     rotate: { x: 0, y: 90, z:0},
     duration: 2500
 });
+
+sr.reveal('.imgProfile', { duration: 7000});
