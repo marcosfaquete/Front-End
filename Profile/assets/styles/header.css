@@ -3,10 +3,7 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    
-
     background-color: rgb(92, 88, 88);
-
 }
 
 .header {
@@ -30,8 +27,8 @@
     border-radius: 5%;
     margin-left: 70%;
     margin-top: 9%;
-
-    border-style: groove;
+    border-style: solid;
+    border-color: #1a1918;
 }
 
  .H1 {
@@ -51,7 +48,7 @@
     margin-bottom: 20%;
     margin-left: 12%;
     
-    border-style: groove;
+   
     
   } 
   @keyframes type {
@@ -86,7 +83,6 @@
     margin-left: 15%;
     width: 30%;
     height: 4%;
-    border-style: groove;
   } 
   @keyframes type {
     from {
@@ -103,19 +99,11 @@
       border-color: transparent;
     }
   }
-
-
   .footer {
     width: auto;
     height: 103px;
-    
-
     border-style: groove;
-
-    
-    
     background-color: rgb(54, 52, 52);
-
     margin-top: auto;
     text-align: center;
   }
