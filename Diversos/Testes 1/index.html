@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>4. Tags de lista</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+      
+      <ol>
+        <li>Item A</li>
+        <li>Item B</li>
+      </ol><br><br><br><br>
+
+
+
+    <h1>6. Tags de tabelas</h1>
+    <table>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+        </tr>
+        <tr>
+          <td>João</td>
+          <td>25</td>
+        </tr>
+      </table><br><br><br><br>
+
+
+    <h1>7. Tags de formulário</h1>
+    <p>Para capturar dados do usuário:</p>
+    <form action="/enviar" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <button type="submit">Enviar</button>
+    </form><br><br><br><br>
+
+
+    <h1>8. Tags de divisão e containers</h1>
+    Essas tags ajudam a estruturar o layout da página.
+
+    <p>(div) Um bloco genérico usado para agrupar outros elementos. Muito usado em conjunto com CSS para criar layouts.</p>
+    <p>(span) Um container inline (dentro de uma linha) usado para estilizar ou agrupar pequenos trechos de texto.</p>
+    
+    <div class="container">
+        <h1>Seção do site</h1>
+        <p>Conteúdo dentro do container.</p>
+      </div>
+      
+    <p>Texto com um <span style="color: blue;">trecho azul</span>.</p><br><br><br><br>
+      
+
+
+    <h1>9. Tags multimídia</h1>
+    <p>Estas tags permitem adicionar áudio, vídeo e outros recursos multimídia.
+    
+    (audio): Para incluir áudio.
+    Use os atributos controls para exibir os controles.</p><br>
+
+    <audio controls>
+        <source src="musica.mp3" type="audio/mp3">
+        Seu navegador não suporta áudio.
+    </audio>
+    <br><br>
+    <video controls width="600">
+        <source src="video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video><br><br>
+
+    <p>(embed): Para embutir conteúdo, como PDFs.</p>
+    <embed src="documento.pdf" width="600" height="400" type="application/pdf">
+
+
+    <h1>10. Tags semânticas (HTML5)</h1>
+    <p>Introduzidas no HTML5, essas tags melhoram a organização e a acessibilidade do código.
+        
+    (header): Define o cabeçalho de uma página ou seção.<br>
+    (footer): Define o rodapé.<br>
+    (main): Representa o conteúdo principal da página.<br>
+    (article): Representa um artigo independente (como posts de blog).<br>
+    (section): Define uma seção temática da página.<br>
+    (aside): Usado para conteúdo relacionado, como barras laterais.<br>
+    (nav): Define a navegação (menus, links).</p><br>
+
+    Exemplo:
+
+    <header>
+        <h1>Bem-vindo ao meu site!</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main>
+        <section>
+          <h2>Seção Principal</h2>
+          <p>Conteúdo da seção principal.</p>
+        </section>
+      
+        <aside>
+          <h3>Links Relacionados</h3>
+          <ul>
+            <li><a href="#link1">Link 1</a></li>
+          </ul>
+        </aside>
+      </main>
+      
+      <footer>
+        <p>Copyright © 2024</p>
+      </footer><br>
+      
+
+    Regra: Sempre use tags semânticas para melhorar a legibilidade do código e a experiência dos usuários, incluindo ferramentas de acessibilidade.<br><br><br><br>
+
+
+      
+
+    <h1>Tags para tabelas mais avançadas</h1>
+    <p>Além das básicas (vistas anteriormente), existem outras úteis para tabelas:<br>
+    (caption): Adiciona um título à tabela.<br>
+    (thead): Define o cabeçalho.<br>
+    (tbody): Define o corpo.<br>
+    (tfoot): Define o rodapé.</p><br>
+
+    <table border="1">
+        <caption>Relatório de Vendas</caption>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Camiseta</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Boné</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td>15</td>
+          </tr>
+        </tfoot>
+      </table><br>
+
+    <p>Regra: Use tags como (thead) e (tfoot) para organizar dados grandes em tabelas.</p>
+    <br><br><br><br>
+        
+
+    <h1>13. Tags para interatividade</h1>
+    <p>Estas tags permitem adicionar mais interação e dinamismo à sua página.<br>
+
+    (details): Cria uma seção que o usuário pode expandir/recolher.<br>
+    (summary): Define o título do (details).<br>
+    (dialog): Cria uma caixa de diálogo (como um modal).<br><br>
+    <br>
+    <details>
+        <summary>Mais Informações</summary>
+        <p>Este é o texto adicional que pode ser expandido.</p>
+    </details>
+      
+    <dialog open>
+        <p>Bem-vindo ao site!</p>
+        <button>Fechar</button>
+    </dialog>
+    </p>
+      
+    <br><br><br><br><br><br><br><br>
+
+
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="50" fill="blue" />
+        <rect x="50" y="50" width="100" height="50" fill="red" />
+    </svg>
+      
+
+
+
+
+
+
+</body>
+</html>

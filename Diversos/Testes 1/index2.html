@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de João da Silva">
+    <meta name="author" content="João da Silva">
+    <title>Portfólio de João da Silva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>João da Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou João da Silva, desenvolvedor full stack com paixão por criar soluções inovadoras. Tenho experiência em diversas tecnologias e adoro aprender coisas novas.</p>
+            <figure>
+                <img src="foto.jpg" alt="Foto de João da Silva">
+                <figcaption>João da Silva</figcaption>
+            </figure>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <article>
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1.</p>
+            </article>
+            <article>
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2.</p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="enviar.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 João da Silva</p>
+    </footer>
+</body>
+</html>
